@@ -1,0 +1,308 @@
+body{
+    margin: 10;
+    padding: 10;
+    background:#f3f0f2;
+}
+.name{
+    width: 100%;
+    height: 250px;
+    background: pink;
+    transform: skewY(-5deg);
+    border-radius: 20px;
+}
+.name .contenido{
+    width: 50%;
+    height: 50%;
+    position:absolute;
+    left:25%;
+    right:25%;
+    top:25%;
+    bottom:25%;
+}
+.name .contenido .p1{
+    color: white;
+    font-family: 'Crimson Pro', sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    transform: skewY(5deg);
+    margin-top: 20;
+    margin-bottom: 20;
+    text-align: center;
+}
+.name .contenido .p2{
+    color: black;
+    font-family: 'Crimson Pro', sans-serif;
+    font-size: 15px;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: large;
+
+    }
+.name .contenido .p3{
+    color: black;
+    font-family: 'Crimson Pro', sans-serif;
+    font-size:15px;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: large;
+    }
+
+.Descripcion {
+    width: 90%;
+    height: auto;
+    background: pink;
+    margin: 5% auto;
+    padding: 20px; 
+    left:25%;
+    right:25%;
+    top:0%;
+    bottom:0%;
+    border-radius: 20px;
+}   
+
+.Descripcion .Descripcion {
+    color: whitesmoke;
+    font-family:'Crimson Pro', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 5px whitesmoke dashed;
+    left:25%;
+    right:25%;
+    margin-top:0%;
+    margin-bottom:0%;
+}
+  
+
+.Descripcion .TEXTO{   
+    color: black;
+    font-family:'Crimson Pro', sans-serif;
+    font-size: large;
+    display: inline;
+    left:25%;
+    right:25%;
+    margin-top:0%;
+    margin-bottom:0%;
+}
+    
+ 
+.información {
+    width: 90%;
+    height: auto;
+    background: pink;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.información .tituloseccion{
+    color: whitesmoke;
+    font-family:'Crimson Pro', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    border-bottom: 5px whitesmoke dashed;
+
+}
+.información .tituloinfo{
+    color: whitesmoke;
+    font-family:'Crimson Pro', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-inline: 20px ;
+    
+}
+
+.información .info{
+    color: black;
+    font-family:'Crimson Pro', sans-serif;
+    font-size: large;
+    display: inline;
+    }
+.name .img{
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skew(5deg);
+    overflow: hidden;
+}
+.name .img img{
+    width: 180px;
+    height: 320px;
+
+}
+.educacion {
+    width: 90%;
+    height: auto;
+    background: pink;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.educacion1 {
+    color: whitesmoke;
+    font-family:'Crimson Pro', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    border-bottom: 5px whitesmoke dashed;
+}
+
+.educacion .Posgrado {
+    color: whitesmoke;
+    font-family:'Crimson Pro', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    
+    margin-inline: 20px ; 
+}
+.educacion .universidad{
+    color: black;
+    font-family:'Crimson Pro', sans-serif;
+    font-size: large;
+    margin-inline: 20px
+    
+}
+
+.educacion .pregrado {
+    color: whitesmoke;
+    font-family:'Crimson Pro', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    
+    margin-inline: 20px ; 
+}
+.educacion .universidad1 {
+    color: black;
+    font-family:'Crimson Pro', sans-serif;
+    font-size: large;
+    margin-inline: 20px
+    
+}
+
+.esperiencia {
+    width: 90%;
+    height: auto;
+    background: pink;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.esperiencia .esperiencia1{
+    color: whitesmoke;
+    font-family:'Crimson Pro', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    border-bottom: 5px whitesmoke dashed
+    }
+    .esperiencia .esp1{
+        color: whitesmoke;
+        font-family:'Crimson Pro', sans-serif;
+        font-weight: bolder;
+        font-size: large;
+        
+        margin-inline: 20px ; 
+    }  
+    
+    .esperiencia .p1 {
+        color: black;
+        font-family:'Crimson Pro', sans-serif;
+        font-size: large;
+        margin-inline: 20px
+ 
+    }
+
+    .esperiencia .fecha {
+
+        color: black;
+        font-family: 'Crimson Pro', sans-serif;
+        font-size: large;
+        margin-inline: 20px
+
+    }
+    .esperiencia .cargo1{
+        color: black;
+        font-family: 'Crimson Pro', sans-serif;
+        font-size: large;
+        margin-inline: 20px
+
+    }
+
+    .esperiencia .esp2 {
+        color: whitesmoke;
+        font-family:'Crimson Pro', sans-serif;
+        font-weight: bolder;
+        font-size: large;
+        
+        margin-inline: 20px ; 
+    }  
+    
+    .esperiencia .p2 {
+        color: black;
+        font-family:'Crimson Pro', sans-serif;
+        font-size: large;
+        margin-inline: 20px
+ 
+    }
+
+    .esperiencia .fecha2 {
+
+        color: black;
+        font-family: 'Crimson Pro', sans-serif;
+        font-size: large;
+        margin-inline: 20px
+
+    }
+    .esperiencia .cargo2{
+        color: black;
+        font-family: 'Crimson Pro', sans-serif;
+        font-size: large;
+        margin-inline: 20px
+
+    }
+
+    .esperiencia .esp3{
+        color: whitesmoke;
+        font-family:'Crimson Pro', sans-serif;
+        font-weight: bolder;
+        font-size: large;
+        
+        margin-inline: 20px ; 
+    }  
+    
+    .esperiencia .p3 {
+        color: black;
+        font-family:'Crimson Pro', sans-serif;
+        font-size: large;
+        margin-inline: 20px
+ 
+    }
+
+    .esperiencia .fecha3 {
+
+        color: black;
+        font-family: 'Crimson Pro', sans-serif;
+        font-size: large;
+        margin-inline: 20px
+
+    }
+    .esperiencia .cargo3{
+        color: black;
+        font-family: 'Crimson Pro', sans-serif;
+        font-size: large;
+        margin-inline: 20px
+
+    }
+
+    
+
+
