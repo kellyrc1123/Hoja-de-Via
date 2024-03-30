@@ -1,6 +1,6 @@
 body{
-    margin: 10;
-    padding: 10;
+    margin: 5%;
+    padding: 5%;
     background:#f3f0f2;
 }
 .name{
@@ -11,6 +11,7 @@ body{
     border-radius: 20px;
 }
 .name .contenido{
+   
     width: 50%;
     height: 50%;
     position:absolute;
@@ -20,35 +21,40 @@ body{
     bottom:25%;
 }
 .name .contenido .p1{
+  
     color: white;
     font-family: 'Crimson Pro', sans-serif;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 30px;
     transform: skewY(5deg);
-    margin-top: 20;
-    margin-bottom: 20;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .name .contenido .p2{
+ 
+
     color: black;
     font-family: 'Crimson Pro', sans-serif;
-    font-size: 15px;
+    font-size: 25px;
     transform: skewY(5deg);
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
-    font-size: large;
+    
+    
 
     }
 .name .contenido .p3{
+    display: flex;
     color: black;
     font-family: 'Crimson Pro', sans-serif;
-    font-size:15px;
+    font-size:20px;
     transform: skewY(5deg);
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
-    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center
+
     }
 
 .Descripcion {
@@ -62,41 +68,50 @@ body{
     top:0%;
     bottom:0%;
     border-radius: 20px;
+    text-align: center
 }   
 
 .Descripcion .Descripcion {
+
     color: whitesmoke;
     font-family:'Crimson Pro', sans-serif;
     font-weight: bolder;
     font-size: xx-large;
-    text-align: center;
-    font-weight: bolder;
     border-bottom: 5px whitesmoke dashed;
     left:25%;
     right:25%;
-    margin-top:0%;
-    margin-bottom:0%;
+    margin-top:25px;
+    margin-bottom:25px;
+    
 }
   
 
-.Descripcion .TEXTO{   
+.Descripcion .TEXTO{ 
+    
     color: black;
     font-family:'Crimson Pro', sans-serif;
     font-size: large;
-    display: inline;
     left:25%;
     right:25%;
-    margin-top:0%;
-    margin-bottom:0%;
+    margin-top:25px;
+    margin-bottom:25px;
+    text-align: justify;
+    bottom: auto;
+    font-weight: bold;
 }
     
  
 .información {
+
     width: 90%;
     height: auto;
     background: pink;
     margin: 5% auto;
-    padding: 20px;
+    padding: 20px; 
+    left:25%;
+    right:25%;
+    top:0%;
+    bottom:0%;
     border-radius: 20px;
 }
 .información .tituloseccion{
@@ -144,10 +159,15 @@ body{
     height: auto;
     background: pink;
     margin: 5% auto;
-    padding: 20px;
+    padding: 20px; 
+    left:25%;
+    right:25%;
+    top:0%;
+    bottom:0%;
     border-radius: 20px;
 }
 .educacion1 {
+   
     color: whitesmoke;
     font-family:'Crimson Pro', sans-serif;
     font-weight: bolder;
@@ -157,14 +177,15 @@ body{
 }
 
 .educacion .Posgrado {
-    color: whitesmoke;
+ 
+     color: whitesmoke;
     font-family:'Crimson Pro', sans-serif;
     font-weight: bolder;
     font-size: large;
-    
     margin-inline: 20px ; 
 }
 .educacion .universidad{
+ 
     color: black;
     font-family:'Crimson Pro', sans-serif;
     font-size: large;
@@ -173,6 +194,7 @@ body{
 }
 
 .educacion .pregrado {
+
     color: whitesmoke;
     font-family:'Crimson Pro', sans-serif;
     font-weight: bolder;
@@ -181,6 +203,7 @@ body{
     margin-inline: 20px ; 
 }
 .educacion .universidad1 {
+
     color: black;
     font-family:'Crimson Pro', sans-serif;
     font-size: large;
@@ -189,14 +212,20 @@ body{
 }
 
 .esperiencia {
+    
     width: 90%;
     height: auto;
     background: pink;
     margin: 5% auto;
-    padding: 20px;
+    padding: 20px; 
+    left:25%;
+    right:25%;
+    top:0%;
+    bottom:0%;
     border-radius: 20px;
 }
 .esperiencia .esperiencia1{
+
     color: whitesmoke;
     font-family:'Crimson Pro', sans-serif;
     font-weight: bolder;
@@ -205,15 +234,18 @@ body{
     border-bottom: 5px whitesmoke dashed
     }
     .esperiencia .esp1{
+
         color: whitesmoke;
         font-family:'Crimson Pro', sans-serif;
         font-weight: bolder;
         font-size: large;
         
-        margin-inline: 20px ; 
+        margin-inline: 8px ; 
     }  
     
     .esperiencia .p1 {
+  
+
         color: black;
         font-family:'Crimson Pro', sans-serif;
         font-size: large;
@@ -223,6 +255,7 @@ body{
 
     .esperiencia .fecha {
 
+
         color: black;
         font-family: 'Crimson Pro', sans-serif;
         font-size: large;
@@ -230,6 +263,7 @@ body{
 
     }
     .esperiencia .cargo1{
+
         color: black;
         font-family: 'Crimson Pro', sans-serif;
         font-size: large;
@@ -238,6 +272,7 @@ body{
     }
 
     .esperiencia .esp2 {
+
         color: whitesmoke;
         font-family:'Crimson Pro', sans-serif;
         font-weight: bolder;
@@ -247,6 +282,7 @@ body{
     }  
     
     .esperiencia .p2 {
+
         color: black;
         font-family:'Crimson Pro', sans-serif;
         font-size: large;
@@ -263,6 +299,7 @@ body{
 
     }
     .esperiencia .cargo2{
+
         color: black;
         font-family: 'Crimson Pro', sans-serif;
         font-size: large;
@@ -271,6 +308,7 @@ body{
     }
 
     .esperiencia .esp3{
+
         color: whitesmoke;
         font-family:'Crimson Pro', sans-serif;
         font-weight: bolder;
@@ -280,6 +318,7 @@ body{
     }  
     
     .esperiencia .p3 {
+
         color: black;
         font-family:'Crimson Pro', sans-serif;
         font-size: large;
@@ -296,6 +335,7 @@ body{
 
     }
     .esperiencia .cargo3{
+
         color: black;
         font-family: 'Crimson Pro', sans-serif;
         font-size: large;
@@ -303,6 +343,133 @@ body{
 
     }
 
+    .contenedor{
+        display: flex;
+        text-align: center;
+    }
+
+        
+     
+    .columna1{
+        
+        width: 40%;
+        height: 40%;
+        background: pink;
+        margin: 5% ;
+        padding: 20px; 
+        left:10%;
+        right:10%;
+        top:10%;
+        bottom:0%;
+        border-radius: 15px;
+        font-family:'Crimson Pro', sans-serif;
+        
+
+    }
     
+    .columna1  .referencia {
+    
+        color: whitesmoke;
+        font-family:'Crimson Pro', sans-serif;
+        font-weight: bolder;
+        font-size: xx-large;
+        text-align: center;
+        border-bottom: 5px whitesmoke dashed
+        }
+
+    .referencia  .esp1{
+
+        color: whitesmoke;
+        font-family:'Crimson Pro', sans-serif;
+        font-weight: bolder;
+        font-size: large;
+        margin-inline: 20px ; 
+    }  
+    
+    .referencia .p1 {
+   
+
+        color: black;
+        font-family:'Crimson Pro', sans-serif;
+        font-size: large;
+        margin-inline: 20px
+ 
+    }
+
+    .referencia .fecha {
 
 
+        color: black;
+        font-family: 'Crimson Pro', sans-serif;
+        font-size: large;
+        margin-inline: 20px
+
+    }
+    .referencia .cargo1{
+
+        color: black;
+        font-family: 'Crimson Pro', sans-serif;
+        font-size: large;
+        margin-inline: 20px}
+
+        .columna2{
+        
+            width: 40%;
+            height: 40%;
+            background: pink;
+            margin: auto;
+            padding: 20px; 
+            left:10%;
+            right:10%;
+            top:0%;
+            bottom:0%;
+            border-radius: 15px;
+            font-family:'Crimson Pro', sans-serif;
+    
+        }
+        
+        .columna2  .referencia2{
+        
+            color: whitesmoke;
+            font-family:'Crimson Pro', sans-serif;
+            font-weight: bolder;
+            font-size: xx-large;
+            text-align: center;
+            border-bottom: 5px whitesmoke dashed
+            }
+    
+        .referencia2  .esp2{
+    
+            color: whitesmoke;
+            font-family:'Crimson Pro', sans-serif;
+            font-weight: bolder;
+            font-size: large;
+            margin-inline: 20px ; 
+        }  
+        
+        .referencia2 .p2{
+       
+    
+            color: black;
+            font-family:'Crimson Pro', sans-serif;
+            font-size: large;
+            margin-inline: 20px
+     
+        }
+    
+        .referencia2 .fecha2 {
+    
+    
+            color: black;
+            font-family: 'Crimson Pro', sans-serif;
+            font-size: large;
+            margin-inline: 20px
+    
+        }
+        .referencia2 .cargo2{
+    
+            color: black;
+            font-family: 'Crimson Pro', sans-serif;
+            font-size: large;
+            margin-inline: 20px}
+    
